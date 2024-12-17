@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #b0c4de; /* Light blue border */
+    padding: 20px;
+    background-color: white;
+}
+
+/* Title Section */
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #222;
+    border-bottom: 2px solid #c0392b; /* Red underline */
+    margin-bottom: 20px;
+}
+
+/* Serif Fonts Box */
+.serif-box {
+    background-color: #e3f2fd; /* Light blue */
+    padding: 10px;
+    border-left: 5px solid #42a5f5; /* Blue border */
+    margin-bottom: 20px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Sans-serif Fonts Box */
+.sans-serif-box {
+    background-color: #fff9c4; /* Light yellow */
+    padding: 0px 0px 0px 10px;
+    border-right: 5px solid #fbc02d; /* Yellow border */
+    margin-bottom: 30px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Box Model Demonstration */
+.box-model {
+    border: 2px dashed #ab47bc; /* Purple dashed border */
+    padding: 20px;
+    text-align: center;
+}
+
+.box-title {
+    color: #6a1b9a; /* Purple */
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.content-area {
+    width: 300px;
+    margin-left: 0 auto;
+    padding: 10px;
+    background-color: #e53935; /* Red background */
+    color: white;
+    text-align: center;
+    border: 7px solid #b71c1c; /* Dark red border */
+    font-weight: bold;
+    line-height: 1.5;
+}
